@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="@string/pref_1section">
+                <CheckBoxPreference
+                        android:title="@string/pref_wifion"
+                        android:defaultValue="true"
+                        android:summaryOn="@string/pref_hinton_wifion"
+                        android:summaryOff="@string/pref_hintoff_wifion"
+                        android:key="wifion" />  
+                  <CheckBoxPreference
+                        android:title="@string/pref_manual_mac"
+                        android:defaultValue="false"
+                        android:summaryOn="@string/pref_hinton_manual_mac"
+                        android:summaryOff="@string/pref_hintoff_manual_mac"
+                        android:key="manual_mac" />            
+        </PreferenceCategory>
+                        
+           <PreferenceCategory
+                android:title="@string/pref_thomson_section">                
+                 <CheckBoxPreference
+                        android:title="@string/pref_thomson3g"
+                        android:defaultValue="false"
+                        android:summaryOn="@string/pref_hinton_thomson3g"
+                        android:summaryOff="@string/pref_hintoff_thomson3g"
+                        android:key="thomson3g" />
+                 <CheckBoxPreference
+                        android:title="@string/pref_native"
+                        android:defaultValue="true"
+                        android:summaryOn="@string/pref_hinton_native"
+                        android:summaryOff="@string/pref_hintoff_native"
+                        android:key="nativethomson" />         
+                <Preference
+		                android:title="@string/pref_download"
+		                android:summary="@string/pref_download_des"
+		                android:key="download" />   
+		        <Preference
+		                android:title="@string/pref_folder_select"
+		                android:summary="@string/pref_folder_select_des"
+		                android:key="folderSelect" />		                
+        </PreferenceCategory>
+                <PreferenceCategory
+                android:title="@string/pref_2section">
+                <Preference
+                android:title="@string/pref_donate"
+                android:summary="@string/pref_donate_why"
+                android:key="donate" />
+                <Preference
+                android:title="@string/pref_about"
+                android:key="about" />
+           </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="AlertDialog">
+        <item name="android:fullDark">@drawable/popup_full_dark</item>
+        <item name="android:topDark">@drawable/popup_top_dark</item>
+        <item name="android:centerDark">@drawable/popup_center_dark</item>
+        <item name="android:bottomDark">@drawable/popup_bottom_dark</item>
+        <item name="android:fullBright">@drawable/popup_full_bright</item>
+        <item name="android:topBright">@drawable/popup_top_bright</item>
+        <item name="android:centerBright">@drawable/popup_center_bright</item>
+        <item name="android:bottomBright">@drawable/popup_bottom_bright</item>
+        <item name="android:bottomMedium">@drawable/popup_bottom_medium</item>
+        <item name="android:centerMedium">@drawable/popup_center_medium</item>
+       <!--   <item name="android:layout:progressLayout">@layout/progress_dialog</item>       <item name="android:layout:horizontalProgressLayout">@layout/alert_dialog_progress</item>-->
+    </style>
+</resources>
