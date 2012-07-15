@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/wifi_scan"
-          android:icon="@drawable/ic_menu_refresh"
-          android:title="@string/menu_scan" />
     <item android:id="@+id/pref"
           android:icon="@drawable/ic_menu_preferences"
+          android:showAsAction="always"
           android:title="@string/menu_preferences" />
-    <item android:id="@+id/Donate"
-          android:icon="@drawable/ic_menu_market"
-          android:title="@string/donate_market" />
+    <item android:id="@+id/wifi_scan"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="@string/menu_scan" 
+          android:showAsAction="always"
+          />
 </menu>

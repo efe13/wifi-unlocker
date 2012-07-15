@@ -22,13 +22,15 @@
 	                android:layout_width="fill_parent" 
 	                android:layout_height="fill_parent" 
 	                >
+
 		            <TextView
-				        android:id="@+id/text_about"
-				        android:layout_width="fill_parent"
-				        android:layout_height="fill_parent" 
-				        android:textSize="17sp"
-				   		android:text="@string/pref_about_desc"
-						/>
+		                android:id="@+id/text_about"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:text="@string/pref_about_desc"
+		                android:textColorHint="@color/colorICS"
+		                android:textSize="17sp" />
+
 				</ScrollView> 
 				<ScrollView
 	               	android:id="@+id/about_credits_scroll"
@@ -40,7 +42,7 @@
 				        android:layout_width="fill_parent"
 				        android:layout_height="fill_parent" 
 				        android:textSize="17sp"
-				        android:textColor="@color/colorICS"
+				          android:textColorHint="@color/colorICS"
 				   		android:text="@string/dialog_about_credits_desc"
 					/>
 				</ScrollView> 
@@ -55,7 +57,7 @@
 				        android:layout_width="fill_parent"
 				        android:layout_height="fill_parent" 
 				        android:textSize="17sp"
-				        android:textColor="@color/colorICS"
+				          android:textColorHint="@color/colorICS"
 				   		android:text="@string/dialog_about_license_desc"
 					/>
 				</ScrollView> 	

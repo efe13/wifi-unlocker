@@ -4,9 +4,9 @@
 
     <!-- MISC STRINGS -->
     <string name="app_name">Wifi Unlocker</string>
-    <string name="msg_welcome_title">Router Keygen</string>
-    <string name="msg_welcome_text"> Obrigado por experimentar a aplicação Router Keygen. Se gostou da aplicação por favor considere a hipótese de comprar a versão Donativo. O link está no menu de preferências. O seu donativo irá motivar os autores a melhorar esta grande ferramenta open-source.</string>
-	<string name="msg_welcome_text_donate">Obrigado por ter comprado a versão paga de Router Keygen. O seu donativo irá motivar os autores a melhorar esta grande ferramenta open-source.</string>
+    <string name="msg_welcome_title">Wifi Unlocker</string>
+    <string name="msg_welcome_text"> Obrigado por experimentar a aplicação Wifi Unlocker. Se gostou da aplicação por favor considere a hipótese de comprar a versão Donativo. O link está no menu de preferências. O seu donativo irá motivar os autores a melhorar esta grande ferramenta open-source.</string>
+	<string name="msg_welcome_text_donate">Obrigado por ter comprado a versão paga de Wifi Unlocker. O seu donativo irá motivar os autores a melhorar esta grande ferramenta open-source.</string>
     <string name="menu_scan">Pesquisa</string>
     <string name="menu_manual">Entrada Manual</string>
     <string name="menu_preferences">Preferências</string>
@@ -49,7 +49,7 @@
     <string name="msg_wait">Por favor aguarde...</string>
 	<string name="lb_manual_bssid">Endereço MAC</string>
 	<string name="dialog_about_credits">Créditos</string>
-	<string name="dialog_about_credits_desc">Router Keygen é o resultado das contribuições valiosas das seguintes pessoas/organizações:\n\n
+	<string name="dialog_about_credits_desc">Unlocker Wifi sua base no Open Source e do grande trabalho de Router Keygen e é o resultado da inestimável contribuição das seguintes pessoas / organizações: \n\n
 								<b>Rui Araújo</b> - Membro da Equipa Exobel\n
 								<b>Luís Fonseca</b> - Membro da Equipa Exobel\n
 								<b>Ângela Igreja</b> pela tradução portuguesa\n
@@ -83,8 +83,8 @@
     <string name="pref_2section">Sobre</string>
     <string name="pref_donate">Donativo</string>
     <string name="pref_donate_why">Ofereça-me um café se gostou desta aplicação</string>
-    <string name="pref_about">Sobre Router Keygen</string>
-    <string name="pref_about_desc">Router Keygen calcula senhas de origem para vários routers.\n\n
+    <string name="pref_about">Sobre Wifi Unlocker</string>
+    <string name="pref_about_desc">Wifi Unlocker calcula senhas de origem para vários routers.proyecto originais\n\n
 			<a href="http://code.google.com/p/android-thomson-key-solver/">Website do Projecto</a>\n\nVersão: </string>
  	<string name="pref_msg_found">seleccionado.</string>
  	<string name="pref_native">Cálculo Nativo</string>
@@ -104,7 +104,7 @@
  	<!-- ERROR MESSAGE STRINGS -->
     <string name="msg_newthomson">Este é um novo Thomson router que a sua password não pode ser calculada!</string>
     <string name="msg_unspported">Este ESSID não é suportado!</string>
-    <string name="msg_nowifidetected">Não foram detectadas redes WIFI!</string>
+    <string name="msg_nowifidetected">Não há redes Wi-Fi vulneráveis ​​detectados!</string>
     <string name="msg_nowifi">O Wifi não está activado! Por favor active o Wifi!</string>
     <string name="msg_scanfailed">A pesquisa falhou!</string>
     <string name="msg_wifibroken">Falha na activação do Wifi</string>

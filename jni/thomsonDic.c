@@ -26,7 +26,7 @@ static char charectbytes1[] = {
 	'5','6','7','8','9','A',
 	};
 
-JNIEXPORT jobjectArray JNICALL Java_com_zenkun_wifiunlocker_ThomsonKeygen_thirdDicNative
+JNIEXPORT jobjectArray JNICALL Java_com_anontech_wifiunlock_ThomsonKeygen_thirdDicNative
   (JNIEnv * env, jobject obj , jbyteArray ess , jbyteArray ent, jint size)
 {
 	int year = 4;
