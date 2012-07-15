@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include <android/log.h>
 
-JNIEXPORT jobjectArray JNICALL Java_com_zenkun_wifiunlocker_NativeThomson_thomson
+JNIEXPORT jobjectArray JNICALL Java_com_anontech_wifiunlock_NativeThomson_thomson
   (JNIEnv * env, jobject obj, jbyteArray ess )
 {
     int n = sizeof(dic)/sizeof("AAA");

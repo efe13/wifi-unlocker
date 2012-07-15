@@ -37,17 +37,12 @@
 		        <Preference
 		                android:title="@string/pref_folder_select"
 		                android:summary="@string/pref_folder_select_des"
-		                android:key="folderSelect" />		                
+		                android:key="folderSelect" />	
         </PreferenceCategory>
                 <PreferenceCategory
                 android:title="@string/pref_2section">
                 <Preference
-                android:title="@string/pref_donate"
-                android:summary="@string/pref_donate_why"
-                android:key="donate" />
-                <Preference
                 android:title="@string/pref_about"
                 android:key="about" />
            </PreferenceCategory>
-    
 </PreferenceScreen>

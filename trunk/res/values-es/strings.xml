@@ -49,7 +49,7 @@
 	<string name="msg_wait">Espera por favor...</string>
 	<string name="lb_manual_bssid">Dirección MAC</string>
 	<string name="dialog_about_credits">Créditos</string>
-	<string name="dialog_about_credits_desc">Wifi Unlocker esta basado en el Gran Router Keygen el cual es el resultado de la valiosa contribución de las siguientes personas y organizaciones:\n\n
+	<string name="dialog_about_credits_desc">Wifi Unlocker esta basado en el Open Source de Wifi UnlockerWifi Unlocker con ciertas mejoras, es el resultado de la valiosa contribución de las siguientes personas y organizaciones:\n\n
 								<b>Luís Fonseca</b> - Miembro del Equipo Exobel\n
 								<b>Rui Araújo</b> - Miembro del Equipo Exobel\n
 								<b>Ângela Igreja</b> por la Traducción al Portuguese\n
@@ -82,10 +82,10 @@
 	<string name="pref_1section">Opciones Generales</string>
 	<string name="pref_2section">Acerca de</string>
 	<string name="pref_donate">Dona</string>
-	<string name="pref_donate_why">Dona al Equipo de Router-thompson encargado del proyecto Original</string>
-	<string name="pref_about">Acerca</string>
-	<string name="pref_about_desc">Wifi Unlocker esta basado en Router Keygen el calcula los passwords por defecto para varios routers.\n\n
-			<a href="http://code.google.com/p/android-thomson-key-solver/">Sitio del Proyecto Original</a>\n\nVersion: </string>
+	<string name="pref_donate_why">Dóname para un café si te gusta la aplicación</string>
+	<string name="pref_about">Acerca de Wifi Unlocker</string>
+	<string name="pref_about_desc">Wifi Unlocker calcula los passwords por defecto para varios routers. Sitio del proyecto Original\n\n
+			<a href="http://code.google.com/p/android-thomson-key-solver/">Sitio del Proyecto</a>\n\nVersion: </string>
 	<string name="pref_msg_found">Seleccionado.</string>
 	<string name="pref_native">Cálculo Nativo</string>
 	<string name="pref_hinton_native">Calcular en el objetivo si falla al encontrar el diccionario</string>
@@ -104,7 +104,7 @@
 	<!-- ERROR MESSAGE STRINGS -->
 	<string name="msg_newthomson">Los nuevos modem Thomson no son soportados aun!</string>
 	<string name="msg_unspported">Este ESSID no esta soportado!</string>
-	<string name="msg_nowifidetected">No se detectan redes WIFI!</string>
+	<string name="msg_nowifidetected">No se detectan redes WIFI vulnerables</string>
 	<string name="msg_nowifi">Wifi no activada! Activa el Wifi, por favor!</string>
 	<string name="msg_scanfailed">El Escaneo Falló!</string>
 	<string name="msg_wifibroken">Fallo la activación del Wifi</string>
@@ -142,8 +142,7 @@
     <string name="msg_saved_key_file">Guardado en la tarjeta SD.</string>
     <string name="pref_msg_no_network">No hay acceso a la red.</string>
     
-    <string name="pref_rateapp_text">Poniendo 5 estrellas a la aplicación ayudara para poder ampliar la cantidad de Modems y desbloquear mas Wifi ayudame!!!!\n\nLa versión de Donación ayudara a mantener el desarrollo y tener mas Modems. Además agregue soporte a otro modem infinitum (que aun esta en Beta)</string>
+    <string name="pref_rateapp_text">Poniendo 5 estrellas a la aplicación ayudara para poder ampliar la cantidad de Modems y desbloquear mas Wifi ayudame!!!!</string>
      <string name="dialog_remindme">Recordarme luego</string>
-     <string name="donate_market">Donación</string>
     
 </resources>
